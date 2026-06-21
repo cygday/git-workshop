@@ -53,3 +53,29 @@ git switch main
 git merge conflict
 
 if two developers changes same file from different branches
+
+
+git switch feature1
+
+edit file
+
+git add .
+
+git commit -m 'edit'
+
+git switch feature2
+
+edit file
+
+git add .
+
+git commit -m 'edi'
+
+git merge main
+
+
+git switch main
+
+merge conflict occurs when the feature1 bracnh and feature2 bracnh merge on main
+
+

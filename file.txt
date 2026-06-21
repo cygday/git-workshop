@@ -138,6 +138,14 @@ git remote remove origin
 =>  if you push from other branches from the terminal, it will show you compare and pull request on the github page
 
 
+after compare and pull request done on github, on terminal
+
+git switch main
+
+git pull origin main
+
+
+
 
 
 

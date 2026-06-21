@@ -167,6 +167,52 @@ to clone repo from github
 to fork mean to create copy of that repo on github
 
 
+unstage and discard
 
+git restore --staged filename.txt
+
+git reset HEAD filename.txt 
+
+--soft -> stage and working directory changes are preserver
+--mixed -> moves head and unstage changes
+--hard -> moves head clears staging area and discards working directory changes dangerous
+
+
+
+
+git restore filename.txt
+
+git checkout -- filename.txt
+
+
+
+reverting commits
+
+git revert hashid
+
+git revert --no-commit hashid -> to discard commit message
+
+git commit -m "revert: undo broken feature"
+
+git revert -m 1 hasdid -> merge commit revert
+
+
+
+referencing log
+
+git reflog -> file rescue
+
+git reflog | grep feature -> to undelete the branch 
+
+git checkout -b feature
+
+
+rebasing -> it reapplies your commits on top of another branch to produce a clean history, it works like merge
+
+git rebase main
+
+git rebase --continue _> resolve conflict 
+git rebase --skip -> skip this commit 
+git rebase --abort -> abort the rebase
 
 

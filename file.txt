@@ -89,4 +89,11 @@ git brancg -d m feature/login
 
 git fetch --prune -> the second braches pushed the code on repo and you need to pull it, before pull do git fetch
 
+git merge --abort -> to quickly abort changes
+
+
+git switch main -> it happened after only the merge --abort while doing git
+
+merge from other feature branch to main branch
+
 

@@ -33,6 +33,19 @@ for second commit =>
 
 
 
+git branch feauter1
 
+git branch -a -> to check the bracnhes
+
+
+edit file 
+
+git add .
+
+git commit -m 'featuer'
+
+git merge main
+
+git switch main
 
 

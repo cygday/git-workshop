@@ -37,6 +37,10 @@ git branch feauter1
 => git branch -a -> to check the bracnhes
 
 
+=> git branch -r
+
+
+
 edit file 
 
 git add .
@@ -125,6 +129,11 @@ git push origin main
 => to check the remote
 
 git remote show origin
+
+=> to remove the remote
+
+git remote remove origin
+
 
 
 

@@ -56,11 +56,52 @@ git merge main
 
 git switch main / git branch -M main
 
+to checkout the branches
+
+git branch -a
 
 
+<<<<<<< HEAD
 =>git merge conflict
 
 if two developers changes same file from different branches
+=======
+<<<<<<< HEAD
+git merge conflict
+
+if two developers changes same file from different branches
+<<<<<<< HEAD
+=======
+
+to create a branch
+
+git branch feature1
+
+
+to switch to new branch
+
+git checkout feature1 / git switch main
+
+and git add .
+
+git commit -m 'new feature'
+
+git log --all --graph
+
+
+
+to get contents of feature file form main
+
+git switch feature
+
+git merge main
+
+>>>>>>> feature1
+
+
+
+=======
+>>>>>>> feature2
 
 
 git switch feature1
@@ -84,6 +125,7 @@ git merge main
 
 git switch main
 
+<<<<<<< HEAD
 =>  merge conflict occurs when the feature1 bracnh and feature2 bracnh merge on main
 
 
@@ -257,3 +299,20 @@ git stash drop/clear
 
 
 
+=======
+merge conflict occurs when the feature1 bracnh and feature2 bracnh merge on main
+
+
+
+should delegte the >> << === to commmit the merge conflict message
+
+
+to delete the bracnh name
+
+git brancg -d m feature/login
+
+git fetch --prune -> the second braches pushed the code on repo and you need to pull it, before pull do git fetch
+
+
+>>>>>>> main
+>>>>>>> feature2

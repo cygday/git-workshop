@@ -215,4 +215,45 @@ git rebase --continue _> resolve conflict
 git rebase --skip -> skip this commit 
 git rebase --abort -> abort the rebase
 
+git pull --rebase origin main
+
+
+workflow
+git rebase main
+git rebase -i head~4
+git rebase --continue
+git rebase --abort
+git pull --rebase origin main
+
+
+stashing
+
+wokring on feature A -> bug comes -> to save changes safe ->
+
+use git stash push -> fix the bug and commit -> git stash pop -> remove stash
+
+to view list
+
+git stash list
+
+to create branch
+
+git stash branch feature
+
+to delete stash
+
+git stash drop stash{0}/clear
+
+
+
+workflow
+
+git stash push -m 'des'
+git stash list
+git stash apply stash
+git stash pop
+git stash drop/clear
+
+
+
 

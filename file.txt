@@ -34,5 +34,19 @@ for second commit =>
 
 
 
+to checkout the branches
+
+git branch -a
+
+
+
+to create a branch
+
+git branch feature1
+
+
+to switch to new branch
+
+git checkout feature1 / git switch main
 
 

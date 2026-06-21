@@ -48,8 +48,41 @@ git merge main
 
 git switch main
 
+to checkout the branches
+
+git branch -a
 
 
+<<<<<<< HEAD
 git merge conflict
 
 if two developers changes same file from different branches
+=======
+
+to create a branch
+
+git branch feature1
+
+
+to switch to new branch
+
+git checkout feature1 / git switch main
+
+and git add .
+
+git commit -m 'new feature'
+
+git log --all --graph
+
+
+
+to get contents of feature file form main
+
+git switch feature
+
+git merge main
+
+>>>>>>> feature1
+
+
+

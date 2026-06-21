@@ -29,6 +29,7 @@ to check the username modifications
 git blame filename.txt
 
 
+for second commit =>
 
 
 

@@ -64,4 +64,4 @@ git switch feature
 git merge main
 
 
-comapre and pull request
+comapre and pull request on github page

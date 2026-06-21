@@ -124,7 +124,7 @@ git remote add origin https://github.com/cygday/git-workshop.git
 
 tehn you can push on github
 
-git push origin main
+git push origin main/ git push -u origin main
 
 => to check the remote
 

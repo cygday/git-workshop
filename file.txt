@@ -1,4 +1,5 @@
 this is git workshop on odcru, institute
+
 git init
 
 git add .
@@ -7,35 +8,33 @@ if you want to commit without add, use
 
 git commit -am 'fix typo'
 
-to check history of log
+=> to check history of log
 
 git log
 
-the pointer on the git log denotes the branch
+=> the pointer on the git log denotes the branch
 
 git log --all --graph  -> to check the history
 
 
-filter by date
+=> filter by date
 
 git log --after="time" --before="time"
 
-after git log, use hash is use to check the specificc comit
+=> after git log, use hash is use to check the specificc comit
 
 git show hashno.
 
-to check the username modifications
+=> to check the username modifications
 
 git blame filename.txt
 
-
-for second commit =>
 
 
 
 git branch feauter1
 
-git branch -a -> to check the bracnhes
+=> git branch -a -> to check the bracnhes
 
 
 edit file 
@@ -76,24 +75,60 @@ git merge main
 
 git switch main
 
-merge conflict occurs when the feature1 bracnh and feature2 bracnh merge on main
+=>  merge conflict occurs when the feature1 bracnh and feature2 bracnh merge on main
 
 
 
-should delegte the >> << === to commmit the merge conflict message
+=>  should delete the >> << === to commmit the merge conflict message
 
 
-to delete the bracnh name
+=> to delete the bracnh name
 
-git brancg -d m feature/login
+git branch -d  feature/login
 
-git fetch --prune -> the second braches pushed the code on repo and you need to pull it, before pull do git fetch
 
-git merge --abort -> to quickly abort changes
+
+=> git fetch --prune -> the second braches pushed the code on repo and you need to pull it, before pull do git fetch
+
+
+to clear the merge conflict error 
+
+1) git merge --abort -> to quickly abort changes, theres no change commit
 
 
 git switch main -> it happened after only the merge --abort while doing git
 
 merge from other feature branch to main branch
+
+
+2) resolve the conflicts and complete the merge
+
+
+git add .
+
+git status
+
+git commit -m 'merge on main branch'
+
+
+then switch to main branch
+
+
+=>  to migrate file to the github
+
+git remote add origin https://github.com/cygday/git-workshop.git
+
+tehn you can push on github
+
+git push origin main
+
+=> to check the remote
+
+git remote show origin
+
+
+
+
+
 
 

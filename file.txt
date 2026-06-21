@@ -1,0 +1,37 @@
+this is git workshop on odcru, institute
+git init
+
+git add .
+
+if you want to commit without add, use
+
+git commit -am 'fix typo'
+
+to check history of log
+
+git log
+
+the pointer on the git log denotes the branch
+
+git log --all --graph  -> to check the history
+
+
+filter by date
+
+git log --after="time" --before="time"
+
+after git log, use hash is use to check the specificc comit
+
+git show hashno.
+
+to check the username modifications
+
+git blame filename.txt
+
+
+
+
+
+
+
+

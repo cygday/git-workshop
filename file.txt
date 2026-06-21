@@ -393,5 +393,10 @@ comapre and pull request on github page
 code for cherry pick bug fix
 
 
+<<<<<<< HEAD
 doing cheryp ic
+
+
+
+again cherry pick tutorial
 

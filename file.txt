@@ -386,3 +386,5 @@ add to github -> new ssh key -> paste the id_rsa.pub
 git push -u origin main
 
 
+
+bug fix

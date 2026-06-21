@@ -61,17 +61,14 @@ to checkout the branches
 git branch -a
 
 
-<<<<<<< HEAD
-=>git merge conflict
-
-if two developers changes same file from different branches
-=======
-<<<<<<< HEAD
 git merge conflict
 
 if two developers changes same file from different branches
-<<<<<<< HEAD
 =======
+git merge conflict
+
+if two developers changes same file from different branches
+
 
 to create a branch
 
@@ -394,4 +391,5 @@ comapre and pull request on github page
 
 
 code for cherry pick bug fix
->>>>>>> 24e02f7 (bug fix)
+=======
+

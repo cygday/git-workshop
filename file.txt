@@ -17,6 +17,10 @@ git log
 git log --all --graph  -> to check the history
 
 
+=> to edit commit message
+  
+git commit --amend -m "corrected commit message"
+
 => filter by date
 
 git log --after="time" --before="time"
@@ -153,6 +157,14 @@ git pull origin main
 
 
 => git pull --rebase -> changes base  like merge
+
+
+to clone repo from github
+
+=> git clone repo-url
+
+
+to fork mean to create copy of that repo on github
 
 
 

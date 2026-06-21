@@ -57,6 +57,7 @@ git branch -a
 git merge conflict
 
 if two developers changes same file from different branches
+<<<<<<< HEAD
 =======
 
 to create a branch
@@ -86,3 +87,42 @@ git merge main
 
 
 
+=======
+
+
+git switch feature1
+
+edit file
+
+git add .
+
+git commit -m 'edit'
+
+git switch feature2
+
+edit file
+
+git add .
+
+git commit -m 'edi'
+
+git merge main
+
+
+git switch main
+
+merge conflict occurs when the feature1 bracnh and feature2 bracnh merge on main
+
+
+
+should delegte the >> << === to commmit the merge conflict message
+
+
+to delete the bracnh name
+
+git brancg -d m feature/login
+
+git fetch --prune -> the second braches pushed the code on repo and you need to pull it, before pull do git fetch
+
+
+>>>>>>> main

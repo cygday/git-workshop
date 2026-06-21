@@ -49,4 +49,17 @@ to switch to new branch
 
 git checkout feature1 / git switch main
 
+and git add .
+
+git commit -m 'new feature'
+
+git log --all --graph
+
+
+
+to get contents of feature file form main
+
+git switch feature
+
+git merge main
 

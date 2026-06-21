@@ -353,3 +353,36 @@ git fetch --prune -> the second braches pushed the code on repo and you need to 
 
 >>>>>>> main
 >>>>>>> feature2
+
+
+for git push command 
+
+git push -u origin main
+
+
+it ask for credentials
+
+username -> your github username
+password -> create a PAT token from github and paste here
+
+if it still fails
+
+do ssh login
+
+update your remote url to ssh from github page
+
+git remote set-url origin git@github.com:cygday/dog-swll-website.git
+
+verify-> git remote -v
+
+set up ssh keys on terminal
+
+ssh-keygen -t rsa -b 4096
+
+cat ~/.ssh/id_rsa.pub
+
+add to github -> new ssh key -> paste the id_rsa.pub
+
+git push -u origin main
+
+

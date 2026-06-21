@@ -256,4 +256,41 @@ git stash drop/clear
 
 
 
+taggin
+
+git tag -a "" -m "" 
+
+
+
+cherry-pick
+
+from the feature bracnh bug fixed commit is picked on main branch
+
+1)first check log
+
+git log nav --oneline --nav is branch name
+
+2)check the commit of bugfix
+
+git cherry-pick hasd-id
+
+3)it transfers to main repo
+
+git log --oneline
+
+4) to cherrypick both commit
+
+git cherry-pick logo-hasd-id bug-fix-hash-id
+
+5) to check 
+git log --oneline
+
+
+submodules
+
+first git pull
+git submodule add url/submodule-name
+
+
+cicd -> to automate -> github automation => how to use github?
 

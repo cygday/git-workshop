@@ -45,11 +45,11 @@ git commit -m 'featuer'
 
 git merge main
 
-git switch main
+git switch main / git branch -M main
 
 
 
-git merge conflict
+=>git merge conflict
 
 if two developers changes same file from different branches
 

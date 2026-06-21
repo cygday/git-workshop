@@ -61,14 +61,17 @@ to checkout the branches
 git branch -a
 
 
-git merge conflict
+<<<<<<< HEAD
+=>git merge conflict
 
 if two developers changes same file from different branches
 =======
+<<<<<<< HEAD
 git merge conflict
 
 if two developers changes same file from different branches
-
+<<<<<<< HEAD
+=======
 
 to create a branch
 
@@ -97,8 +100,8 @@ git merge main
 
 
 
-
 =======
+>>>>>>> feature2
 
 
 git switch feature1
@@ -305,17 +308,39 @@ cherry-pick
 
 from the feature bracnh bug fixed commit is picked on main branch
 
+git switch feature1
+
 1)first check log
 
 git log nav --oneline --nav is branch name
 
-2)check the commit of bugfix
+
+vi file.txt -> edit
+
+git add file.txt
+
+git commit -m 'edit'
+
+git push -u origin feature1
+
+
+2)check the commit of bugfix from feature log
+
+
+switch to main branch 
+
+git switch main
+
 
 git cherry-pick hasd-id
+
+
 
 3)it transfers to main repo
 
 git log --oneline
+
+
 
 4) to cherrypick both commit
 
@@ -323,6 +348,20 @@ git cherry-pick logo-hasd-id bug-fix-hash-id
 
 5) to check 
 git log --oneline
+
+if theres conflicts
+
+vi file.txt
+
+remove <<<<======>>>>>> from the file
+
+
+git add file.txt
+
+git cherry-pick --continue
+
+
+git push -u origin main
 
 
 submodules
@@ -382,25 +421,4 @@ add to github -> new ssh key -> paste the id_rsa.pub
 
 git push -u origin main
 
-
-
-bug fix
-=======
-comapre and pull request on github page
-
-
-
-code for cherry pick bug fix
-
-
-<<<<<<< HEAD
-doing cheryp ic
-
-
-
-again cherry pick tutorial
-
-
-
-how to do chery pick
 

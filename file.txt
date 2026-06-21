@@ -100,8 +100,8 @@ git merge main
 
 
 
+
 =======
->>>>>>> feature2
 
 
 git switch feature1
@@ -388,3 +388,10 @@ git push -u origin main
 
 
 bug fix
+=======
+comapre and pull request on github page
+
+
+
+code for cherry pick bug fix
+>>>>>>> 24e02f7 (bug fix)

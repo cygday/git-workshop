@@ -49,3 +49,7 @@ git merge main
 git switch main
 
 
+
+git merge conflict
+
+if two developers changes same file from different branches
